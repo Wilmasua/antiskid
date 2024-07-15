@@ -1,0 +1,13 @@
+while true do  -- Infinite loop
+    wait(0.1)  -- Adjust delay as needed
+    local coreGui = game:GetService("CoreGui")
+    
+    -- Check if each GUI exists before destroying
+    if coreGui:FindFirstChild("SimpleSpy2") then
+        coreGui.SimpleSpy2:Destroy()
+    end
+    
+    if coreGui:FindFirstChild("TurtleSpyGUI") then
+        coreGui.TurtleSpyGUI:Destroy()
+    end
+end
