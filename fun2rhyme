@@ -1,8 +1,0 @@
-while wait(0.01) do
-local args = {
-    [1] = game:GetService("Players").LocalPlayer,
-    [2] = true
-}
-
-game:GetService("ReplicatedStorage").Events.ActiveVoteCounting:FireServer(unpack(args))
-end
