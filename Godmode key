@@ -1,3 +1,3 @@
 KEY: ohio
 
-https://linkvertise.com/1030860/roblox-wave-defense-scrip?o=sharing
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Wilmasua/antiskid/refs/heads/main/The%20god%20mode", true))()
